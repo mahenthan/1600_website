@@ -11,16 +11,22 @@ body {
   flex-direction: column;
 }
 
+p {
+  font-family: Helvetica, arial, sans-serif;
+}
+
 header {
   background-color: rgb(238, 218, 202);
   padding: 10px;
   box-shadow: 0 0 4px rgb(197, 56, 87);
   height: 150px;
+  font-family: Helvetica, arial, sans-serif;
   }
 
 header li {
   display: inline;
   padding: 30px;
+  font-family: Helvetica, arial, sans-serif;
 }
 
 header li a {
@@ -46,14 +52,14 @@ header ul #headerbox a {
   top: 50px;
   right: 50px;
   transition: .3s ease;
-  border: 2px solid rgb(151, 13, 98);
+  border: 2px solid rgb(197, 56, 87);
 
 
 
 }
 
 header ul #headerbox a:hover {
-  background-color:rgba(197, 56, 87, 0.548);
+  background-color:rgba(223, 121, 143, 0.548);
 
 }
 
@@ -65,8 +71,8 @@ footer {
   height: 180px; 
   margin-top: auto;
   position:relative;
+  font-family: Helvetica, arial, sans-serif;
   
-   
 }
 
 .footer .footer-content{
@@ -93,7 +99,7 @@ footer {
   position: absolute;
   text-align: center;
   width: 100%;
-  border: 2px solid rgb(151, 13, 98);
+  border: 2px solid rgb(197, 56, 87);
 }
   .page-wrapper{
       min-height: 100%;
@@ -138,22 +144,26 @@ footer {
     font-weight: bold;
     text-align: center;
     color: rgb(197, 56, 87);
+    font-family: Helvetica, arial, sans-serif;
   }
  
   
 
   h1{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight:lighter;
     text-align: center;
-    text-shadow: 2px 2px 2px #5e5d5d;
-    letter-spacing: 5px;
+    /* text-shadow: 1px 1px 1px #5e5d5d; */
+    letter-spacing: 2px;
+    font-family: Helvetica, arial, sans-serif;
+    
   }
    
   h2{
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 1.7;
+    font-family: Helvetica, arial, sans-serif;
   }
   
 
@@ -166,7 +176,7 @@ footer {
     margin-right: auto;
     margin-top: 50;
     margin-bottom: 50;
-    padding: 2% 10% 2% 10%;
+    padding: 2% 10% 8% 8%;
     
   }
 
